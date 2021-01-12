@@ -1,0 +1,31 @@
+.img-wrapper img {
+  width: 100%;
+  opacity: 1;
+  display: block;
+  transition: 0.5s ease;
+}
+.text-wrapper {
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #112d46;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate((-50%, -50%));
+  margin-top: -30%;
+  width: 100%;
+  height: auto;
+}
+
+.img-wrapper:hover .text-wrapper {
+  opacity: 0.9;
+}
+.img-wrapper:hover img {
+  opacity: 0.4;
+}
+.text-wrapper h3 {
+  text-align: center;
+  width: 100%;
+  color: #fff;
+}

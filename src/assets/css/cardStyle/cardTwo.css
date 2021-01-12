@@ -1,0 +1,29 @@
+.imageWrapper img {
+  opacity: 1;
+  display: block;
+  transition: 0.3s ease;
+}
+.textWrapper {
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: #112d46;
+  position: relative;
+  top: 50%;
+  left: 10%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate((-50%, -50%));
+  margin-left: 80px;
+  width: 100%;
+  font-size: 50px;
+}
+
+.imageWrapper:hover .textWrapper {
+  opacity: 0.9;
+}
+/* .imageWrapper:hover img {
+  opacity: 0.4;
+} */
+.textWrapper h6 {
+  text-align: center;
+  color: #fff;
+}
